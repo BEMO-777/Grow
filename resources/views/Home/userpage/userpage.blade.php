@@ -18,7 +18,18 @@
       <!--start content-->
       @include('Home.userpage.content')
       <!--start Dashboard-->
-      @include('Home.userpage.startdash')
+      @include('Home.userpage.welcome')
+      @include('Home.userpage.quick_draft')
+      @include('Home.userpage.targets')
+      @include('Home.userpage.tickets_statistics')
+      @include('Home.userpage.latest_news')
+      @include('Home.userpage.latest_tasks')
+      @include('Home.userpage.top_search')
+      @include('Home.userpage.latest_uploads')
+      @include('Home.userpage.project_progress')
+      @include('Home.userpage.reminders')
+      @include('Home.userpage.latest_post')
+      @include('Home.userpage.social_media_status')
       <!-- start projects  -->
       @include('Home.userpage.projects')
       </div>

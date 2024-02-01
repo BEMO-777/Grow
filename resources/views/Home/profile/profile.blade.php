@@ -15,16 +15,15 @@
   <body>
     <div class="page d-flex">
       <!-- start sidebar  -->
-      @include('Home.userpage.sidebar')
+@include('Home.userpage.sidebar')
       <!-- start content  -->
       <div class="content w-full hide-flow">
         <!-- start head  -->
-      @include('Home.userpage.content')
-
+@include('Home.userpage.content')
         <!-- start settings  -->
         <h1 class="p-relative">Profile</h1>
-        @include('Home.profile.prof_info')
-
+        <div class="profile-page m-20">
+          @include('Home.profile.prof_info')
           <!-- start other data  -->
           <div class="other-data d-flex g-20">
             @include('Home.profile.skills')

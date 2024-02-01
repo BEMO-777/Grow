@@ -25,8 +25,8 @@
         <div class="projects-page d-grid m-20 g-20">
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-gray">11-7-2023</span>
-            <h4 class="m-0">Mahmoud Dashboard</h4>
-            <p class="c-gray mt-10 mb-10 fs-14 capital">Mahmoud dashboard project design and programming and hosting</p>
+            <h4 class="m-0">Mohamed Dashboard</h4>
+            <p class="c-gray mt-10 mb-10 fs-14 capital">Mohamed dashboard project design and programming and hosting</p>
             <div class="team">
               <a href=""><img src="imgs/team-01.png" alt=""></a>
               <a href=""><img src="imgs/team-02.png" alt=""></a>
@@ -124,8 +124,8 @@
 
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-gray">28-10-2023</span>
-            <h4 class="m-0">Mahmoud Fahmy</h4>
-            <p class="c-gray mt-10 mb-10 fs-14 capital">Mahmoud Fahmy project design and programming and hosting</p>
+            <h4 class="m-0">Mohamed Bashandy</h4>
+            <p class="c-gray mt-10 mb-10 fs-14 capital">Mohamed Bashandy project design and programming and hosting</p>
             <div class="team">
               <a href=""><img src="imgs/team-01.png" alt=""></a>
               <a href=""><img src="imgs/team-02.png" alt=""></a>

@@ -46,4 +46,4 @@
         <span class="c-gray">Friday</span>
       </div>
     </div>
-  </div>
+</div>
