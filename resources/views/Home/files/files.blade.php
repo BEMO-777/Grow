@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Files</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/dash.css">
+    <link rel="stylesheet" href="home/css/all.min.css">
+    <link rel="stylesheet" href="home/css/framework.css">
+    <link rel="stylesheet" href="home/css/dash.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -15,115 +15,22 @@
   <body>
     <div class="page d-flex">
       <!-- start sidebar  -->
-      <div class="sidebar bg-white p-20 p-relative">
-        <h3 class="p-relative txt-c mt-0">test</h3>
-        <ul>
-          <li>
-            <a class="d-flex align-c fs-14 rad-6 p-10" href="Index.html">
-              <i class="fa-regular fa-chart-bar fa-fw"></i>
-              <span class="hide-mobile">Dashboard</span>
-            </a>
-          </li>
-          <li>
-            <a class="d-flex align-c fs-14 rad-6 p-10" href="settings.html">
-              <i class="fa-solid fa-gear fa-fw"></i>
-              <span class="hide-mobile">Settings</span>
-            </a>
-          </li>
-          <li>
-            <a class="d-flex align-c fs-14 rad-6 p-10" href="profile.html">
-              <i class="fa-regular fa-user fa-fw"></i>
-              <span class="hide-mobile">Profile</span>
-            </a>
-          </li>
-          <li>
-            <a class="d-flex align-c fs-14 rad-6 p-10" href="projects.html">
-              <i class="fa-solid fa-diagram-project fa-fw"></i>
-              <span class="hide-mobile">Projects</span>
-            </a>
-          </li>
-          <li>
-            <a class="d-flex align-c fs-14 rad-6 p-10" href="courses.html">
-              <i class="fa-solid fa-graduation-cap fa-fw"></i>
-              <span class="hide-mobile">Courses</span>
-            </a>
-          </li>
-          <li>
-            <a class="d-flex align-c fs-14 rad-6 p-10" href="friends.html">
-              <i class="fa-regular fa-circle-user fa-fw"></i>
-              <span class="hide-mobile">Friends</span>
-            </a>
-          </li>
-          <li>
-            <a class="active d-flex align-c fs-14 rad-6 p-10" href="files.html">
-              <i class="fa-regular fa-file fa-fw"></i>
-              <span class="hide-mobile">Files</span>
-            </a>
-          </li>
-          <li>
-            <a class="d-flex align-c fs-14 rad-6 p-10" href="plans.html">
-              <i class="fa-regular fa-credit-card fa-fw"></i>
-              <span class="hide-mobile">Plans</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+      @include('Home.userpage.sidebar')
       <!-- start content  -->
       <div class="content w-full hide-flow">
         <!-- start head  -->
-        <div class="head bg-white p-15 between-flex">
-          <div class="search p-relative">
-            <input class="p-10 border-cc rad-10" type="search" placeholder="type a kyeword">
-          </div>
-          <div class="icons d-flex align-c">
-            <span class="notify p-relative">
-              <i class="fa-regular fa-bell fa-lg"></i>
-            </span>
-            <img src="imgs/boy_tiger.png" alt="">
-          </div>
-        </div>
+        @include('Home.userpage.content')
         <!-- start courses  -->
         <h1 class="p-relative">Files</h1>
         <div class="files-page d-flex m-20 g-20">
           <div class="files-stats bg-white p-20 rad-10">
             <h2 class="mt-0 mb-15 txt-c-mobile">Files Statistics</h2>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-regular fa-file-pdf fa-lg red c-red center-flex icon"></i>
-              <div class="info">
-                <span>PDF Files</span>
-                <span class="d-block mt-5">130</span>
-              </div>
-              <div class="size c-gray">1.5GB</div>
-            </div>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-regular fa-images fa-lg green c-green center-flex icon"></i>
-              <div class="info">
-                <span>Images</span>
-                <span class="d-block mt-5">2000</span>
-              </div>
-              <div class="size c-gray">2.0GB</div>
-            </div>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-solid fa-file-csv fa-lg orange c-orange center-flex icon"></i>
-              <div class="info">
-                <span>CSV Files</span>
-                <span class="d-block mt-5">114</span>
-              </div>
-              <div class="size c-gray">3.5GB</div>
-            </div>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-regular fa-file-word fa-lg blue c-blue center-flex icon"></i>
-              <div class="info">
-                <span>Word Files</span>
-                <span class="d-block mt-5">90</span>
-              </div>
-              <div class="size c-gray">1.9GB</div>
-            </div>
-            <a class="upload bg-blue c-white fs-13 rad-6 d-block w-fit" href="#">
-              <i class="fa-solid fa-angles-up mr-10"></i>
-              Upload
-            </a>
-          </div>
+
+            {{-- Files_Statistics --}}
+            @include('Home.files.Files_Statistics')
+            {{-- End Files_Statistics --}}
+
+
           <div class="files-content d-grid g-20">
             <div class="file bg-white rad-10 p-10 ">
               <i class="fa-solid fa-download c-gray p-absolute"></i>
