@@ -8,6 +8,6 @@
         <span class="notify p-relative">
           <i class="fa-regular fa-bell fa-lg"></i>
         </span>
-        <img src="imgs/boy_tiger.png" alt="">
+        <img src="{{asset('imgs/boy_tiger.png')}}" alt="">
       </div>
     </div>
