@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="stylesheet" href="home/css/all.min.css">
-    <link rel="stylesheet" href="home/css/framework.css">
-    <link rel="stylesheet" href="home/css/dash.css">
+    <link rel="stylesheet" href="{{asset('home/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('home/css/framework.css')}}">
+    <link rel="stylesheet" href="{{asset('home/css/dash.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="{{asset('Home/JavaScript/yoyo.js')}}"></script>
   </head>
   <body>
     <div class="page d-flex">
@@ -28,11 +29,11 @@
             <h4 class="m-0">Mohamed Dashboard</h4>
             <p class="c-gray mt-10 mb-10 fs-14 capital">Mohamed dashboard project design and programming and hosting</p>
             <div class="team">
-              <a href=""><img src="imgs/team-01.png" alt=""></a>
-              <a href=""><img src="imgs/team-02.png" alt=""></a>
-              <a href=""><img src="imgs/team-03.png" alt=""></a>
-              <a href=""><img src="imgs/team-04.png" alt=""></a>
-              <a href=""><img src="imgs/team-05.png" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-01.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-02.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-03.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-04.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-05.png')}}" alt=""></a>
             </div>
             <div class="games d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -56,8 +57,8 @@
             <h4 class="m-0">Tiger Dashboard</h4>
             <p class="c-gray mt-10 mb-10 fs-14 capital">Tiger dashboard project design and programming and hosting</p>
             <div class="team">
-              <a href=""><img src="imgs/team-01.png" alt=""></a>
-              <a href=""><img src="imgs/team-03.png" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-01.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-03.png')}}" alt=""></a>
             </div>
             <div class="games d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -103,9 +104,9 @@
             <h4 class="m-0">Arwa Project</h4>
             <p class="c-gray mt-10 mb-10 fs-14 capital">Arwa Studio</p>
             <div class="team">
-              <a href=""><img src="imgs/team-02.png" alt=""></a>
-              <a href=""><img src="imgs/team-04.png" alt=""></a>
-              <a href=""><img src="imgs/team-05.png" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-02.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-04.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-05.png')}}" alt=""></a>
             </div>
             <div class="games d-flex">
               <span class="fs-13 rad-6 bg-eee">Photochop</span>
@@ -127,10 +128,10 @@
             <h4 class="m-0">Mohamed Bashandy</h4>
             <p class="c-gray mt-10 mb-10 fs-14 capital">Mohamed Bashandy project design and programming and hosting</p>
             <div class="team">
-              <a href=""><img src="imgs/team-01.png" alt=""></a>
-              <a href=""><img src="imgs/team-02.png" alt=""></a>
-              <a href=""><img src="imgs/team-01.png" alt=""></a>
-              <a href=""><img src="imgs/team-02.png" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-01.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-02.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-01.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-02.png')}}" alt=""></a>
             </div>
             <div class="games d-flex">
               <span class="fs-13 rad-6 bg-eee">Hosting</span>
@@ -173,11 +174,11 @@
             <h4 class="m-0">Younuu</h4>
             <p class="c-gray mt-10 mb-10 fs-14 capital">Younis dashboard project design and programming and hosting</p>
             <div class="team">
-              <a href=""><img src="imgs/team-03.png" alt=""></a>
-              <a href=""><img src="imgs/team-03.png" alt=""></a>
-              <a href=""><img src="imgs/team-03.png" alt=""></a>
-              <a href=""><img src="imgs/team-02.png" alt=""></a>
-              <a href=""><img src="imgs/team-02.png" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-03.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-03.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-03.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-02.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-02.png')}}" alt=""></a>
             </div>
             <div class="games d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -225,9 +226,9 @@
             <h4 class="m-0">Lol Dashboard</h4>
             <p class="c-gray mt-10 mb-10 fs-14 capital">LOL dashboard project design and programming and hosting</p>
             <div class="team">
-              <a href=""><img src="imgs/team-04.png" alt=""></a>
-              <a href=""><img src="imgs/team-03.png" alt=""></a>
-              <a href=""><img src="imgs/team-05.png" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-04.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-03.png')}}" alt=""></a>
+              <a href=""><img src="{{asset('imgs/team-05.png')}}" alt=""></a>
             </div>
             <div class="games d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -245,5 +246,5 @@
           </div>
         </div>
     </div>
-  </body>
+   </body>
 </html>

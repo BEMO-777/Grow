@@ -3,7 +3,7 @@
     <h2 class="mt-0 mb-10">Latest Activities</h2>
     <p class="mt-0 mb-20 c-gray fs-15 capital">Latest Activities Done By The User</p>
     <div class="activity d-flex align-c txt-c-mobile">
-      <img src="imgs/activity-01.png" alt="">
+      <img src="{{asset('imgs/activity-01.png')}}" alt="">
       <div class="info">
         <span class="d-block mb-10">Store</span>
         <span class="c-gray capital">bought the mastering python course</span>
@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="activity d-flex align-c txt-c-mobile">
-      <img src="imgs/activity-02.png" alt="">
+      <img src="{{asset('imgs/activity-02.png')}}" alt="">
       <div class="info">
         <span class="d-block mb-10">Store</span>
         <span class="c-gray capital">bought the mastering python course</span>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="activity d-flex align-c txt-c-mobile">
-      <img src="imgs/activity-03.png" alt="">
+      <img src="{{asset('imgs/activity-03.png')}}" alt="">
       <div class="info">
         <span class="d-block mb-10">Store</span>
         <span class="c-gray capital">bought the mastering python course</span>
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="activity d-flex align-c txt-c-mobile">
-      <img src="imgs/activity-01.png" alt="">
+      <img src="{{asset('imgs/activity-01.png')}}" alt="">
       <div class="info">
         <span class="d-block mb-10">Store</span>
         <span class="c-gray capital">bought the mastering python course</span>

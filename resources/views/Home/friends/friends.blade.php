@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends</title>
-    <link rel="stylesheet" href="home/css/all.min.css">
-    <link rel="stylesheet" href="home/css/framework.css">
-    <link rel="stylesheet" href="home/css/dash.css">
+    <link rel="stylesheet" href="{{asset('home/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('home/css/framework.css')}}">
+    <link rel="stylesheet" href="{{asset('home/css/dash.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="{{asset('Home/JavaScript/yoyo.js')}}"></script>
   </head>
   <body>
     <div class="page d-flex">
@@ -29,7 +30,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-01.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-01.jpg')}}" alt="">
               <h4 class="m-0">Mr Lee</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -62,7 +63,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-02.jpg" alt="">
+              <{{asset(' class="w-100 h-10')}}0 rad-half mt-10 mb-10" src="{{asset('imgs/friend-02.jpg')}}" alt="">
               <h4 class="m-0">Mr Mr</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -94,7 +95,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-03.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-03.jpg')}}" alt="">
               <h4 class="m-0">Lee</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -127,7 +128,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-04.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-04.jpg')}}" alt="">
               <h4 class="m-0">Law</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -159,7 +160,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-05.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-05.jpg')}}" alt="">
               <h4 class="m-0">Leo</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -192,7 +193,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-01.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-01.jpg')}}" alt="">
               <h4 class="m-0">Lol</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -224,7 +225,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-04.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-04.jpg')}}" alt="">
               <h4 class="m-0">Mr Lol</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -257,7 +258,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-05.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-05.jpg')}}" alt="">
               <h4 class="m-0">Mr pop</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -290,7 +291,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-02.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-02.jpg')}}" alt="">
               <h4 class="m-0">Mr Pip</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>
@@ -322,7 +323,7 @@
               <i class="fa-regular fa-envelope"></i>
             </div>
             <div class="txt-c">
-              <img class="w-100 h-100 rad-half mt-10 mb-10" src="imgs/friend-04.jpg" alt="">
+              <img class="w-100 h-100 rad-half mt-10 mb-10" src="{{asset('imgs/friend-04.jpg')}}" alt="">
               <h4 class="m-0">Mr Pipe</h4>
               <p class="fs-13 c-gray mt-5 mb-0">JS Dev / Taxi Driver</p>
             </div>

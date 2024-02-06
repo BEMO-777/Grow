@@ -1,6 +1,6 @@
 <div class="overview bg-white rad-10 d-flex align-c">
   <div class="avatar-box txt-c p-20">
-    <img class="rad-half mb-10" src="imgs/boy_tiger.png" alt="">
+    <img class="rad-half mb-10" src="{{asset('imgs/boy_tiger.png')}}" alt="">
     <h3 class="m-0">Mohamed Salah</h3>
     <p class="c-gray mt-10">level 14</p>
     <div class="level bg-eee rad-6 p-relative">
